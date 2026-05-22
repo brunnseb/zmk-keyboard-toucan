@@ -17,6 +17,16 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <19 20>;
+            timeout-ms = <100>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
